@@ -95,4 +95,4 @@ Stwórz skrypt, który porządkuje pliki w wybranym folderze (np. folderze testo
    - Dla każdego pliku sprawdzić jego rozszerzenie (`os.path.splitext`).
    - Jeśli folder docelowy nie istnieje — utworzyć go.
    - Przenieść plik do odpowiedniego folderu za pomocą `os.rename`.
-   - Pliki o nierozpoznanych rozszerzeniach przenieść do folderu `Inne`.
+   - Pliki o nierozpoznanych rozszerzeniach pozostawić bez zmian.
