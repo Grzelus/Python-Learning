@@ -31,11 +31,14 @@ Python-Learning/
 ├── 📁 02_pathlib/                     # Nowoczesne, obiektowe zarządzanie ścieżkami
 │   ├── zadanie_pathlib.py            # Podstawy Path, tworzenie folderów i metadane
 │   ├── zadanie_pathlib_2.py          # Błyskawiczne operacje I/O, backupy (.bak) i UTF-8
+│   ├── zadanie_pathlib_3.py          # Przenoszenie (.rename), czyszczenie (.unlink) i .relative_to
 │   └── path lib/                     # Dane testowe i katalog roboczy zadań
 │       ├── dane.csv
 │       ├── raport_2026_01.txt
 │       ├── raport_2026_02.txt
-│       └── backup/
+│       └── archiwum/
+│           ├── raport_2026_01.bak
+│           └── raport_2026_02.bak
 │
 ├── zadania_narzedzia_branzowe.md     # Pełna ścieżka edukacyjna narzędzi branżowych
 ├── README.md                         # Dokumentacja główna projektu
@@ -80,6 +83,10 @@ Folder: **[`02_pathlib/`](02_pathlib/)** | Przewodnik: **[`zadania_narzedzia_bra
   * Analiza treści tekstu (zliczanie linii i słów).
   * Tworzenie kopii zapasowych ze zmianą rozszerzenia (`.with_suffix(".bak")`).
   * Modyfikacja i dopisywanie stopek weryfikacyjnych do plików.
+* **[`02_pathlib/zadanie_pathlib_3.py`](02_pathlib/zadanie_pathlib_3.py)** – **Inteligentny archiwizator i czyszczenie**
+  * Tworzenie folderów i przenoszenie plików (`.rename()`).
+  * Bezpieczne usuwanie pustych plików tymczasowych (`.unlink(missing_ok=True)`).
+  * Wyliczanie i prezentacja ścieżek względnych (`.resolve().relative_to(Path.cwd())`).
 
 ---
 
