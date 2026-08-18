@@ -1,0 +1,6 @@
+id,imie,nazwisko,stanowisko,wynagrodzenie_pln,data_zatrudnienia
+1,Jan,Kowalski,Senior Python Developer,18500.00,2021-03-15
+2,Anna,Nowak,Data Analyst,12000.00,2022-06-01
+3,Piotr,Wiśniewski,DevOps Engineer,17000.00,2020-11-10
+4,Katarzyna,Zielińska,Product Manager,16000.00,2023-01-16
+5,Tomasz,Lewandowski,Junior Python Developer,7500.00,2024-09-01

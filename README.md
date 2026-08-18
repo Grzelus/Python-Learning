@@ -25,7 +25,32 @@ Zestaw zadań praktycznych z wykorzystaniem wbudowanego modułu `os` oraz moduł
   * Filtrowanie plików po rozszerzeniu.
   * Zliczanie sumarycznego rozmiaru plików i przeliczanie na kilobajty (KB).
 
-* **[`zadania_modul_os.md`](zadania_modul_os.md)** – Kompendium wiedzy, ściągawka z najważniejszych funkcji modułu `os` oraz treści zadań.
+* **[`zadanie_4.py`](zadanie_4.py)** – **Konfiguracja przez zmienne środowiskowe (`os.environ`)**
+  * Pobieranie zmiennych systemowych (`os.getenv`).
+  * Ustawianie wartości domyślnych i modyfikacja słownika środowiskowego (`os.environ`).
+
+* **[`zadanie_5.py`](zadanie_5.py)** – **Automatyczny sortownik i sprzątacz plików**
+  * Praktyczna automatyzacja porządkowania plików w katalogach w oparciu o rozszerzenia.
+  * Łączenie `os.walk`, `os.path.splitext` oraz `os.rename`.
+
+* **[`zadania_modul_os.md`](zadania_modul_os.md)** – Kompendium wiedzy i ściągawka z modułu `os`.
+
+### 🧰 Narzędzia Branżowe (Industry Standard)
+Nowoczesne technologie, biblioteki i wzorce używane w codziennej pracy developera:
+
+* **[`zadanie_pathlib.py`](zadanie_pathlib.py)** – **Obiektowa obsługa ścieżek (`pathlib`)**
+  * Tworzenie zagnieżdżonych struktur katalogów (`Path.mkdir(parents=True, exist_ok=True)`).
+  * Łączenie ścieżek operatorem `/`.
+  * Wyszukiwanie wzorcem (`p.glob("*.txt")`, `p.rglob()`).
+  * Pobieranie metadanych (`.name`, `.stem`, `.stat().st_size`).
+
+* **[`zadanie_pathlib_2.py`](zadanie_pathlib_2.py)** – **Błyskawiczny procesor treści i backupy**
+  * Nowoczesny odczyt i zapis z kodowaniem UTF-8 (`.read_text(encoding="utf-8")`, `.write_text(...)`).
+  * Analiza tekstu (zliczanie linii i słów).
+  * Automatyczne tworzenie kopii zapasowych ze zmianą rozszerzenia (`.with_suffix(".bak")`).
+  * Modyfikacja i dopisywanie stopek weryfikacyjnych do raportów.
+
+* **[`zadania_narzedzia_branzowe.md`](zadania_narzedzia_branzowe.md)** – Pełny zestaw zadań, ściągawki i mini-projekty branżowe (`pathlib`, `json`, `csv`, `requests`, `logging`, `argparse`, `dataclasses`, `pytest`).
 
 ---
 
@@ -39,9 +64,8 @@ Zestaw zadań praktycznych z wykorzystaniem wbudowanego modułu `os` oraz moduł
 
 2. **Uruchom wybrane zadanie:**
    ```bash
-   python zadanie_1.py
-   python zadanie_2.py
-   python zadanie_3.py
+   python zadanie_pathlib.py
+   python zadanie_pathlib_2.py
    ```
 
 ---
@@ -49,4 +73,5 @@ Zestaw zadań praktycznych z wykorzystaniem wbudowanego modułu `os` oraz moduł
 ## 🛠️ Technologie i narzędzia
 * **Python 3.x**
 * **Git & GitHub**
-* Standardowa biblioteka Pythona (`os`, `os.path`)
+* Standardowa biblioteka Pythona (`pathlib`, `os`, `os.path`, `json`, `csv`, `logging`, `argparse`, `dataclasses`)
+
