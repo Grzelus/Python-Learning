@@ -1,7 +1,7 @@
 
 from pathlib import Path
 
-p = Path('./path lib')
+p = Path(__file__).parent / 'path lib'
 
 if not p.exists():
     raise FileNotFoundError("File do not exist")

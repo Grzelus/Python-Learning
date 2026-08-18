@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path('./path lib')
+p = Path(__file__).parent / 'path lib'
 
 p.mkdir(parents=True, exist_ok=True)
 

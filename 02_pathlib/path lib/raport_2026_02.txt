@@ -12,6 +12,3 @@ Dział: Sprzedaż i Operacje
 1. Rekordowa sprzedaż w segmencie B2B.
 2. Optymalizacja kosztów logistyki o 7.2%.
 3. Wdrożenie automatycznego generowania faktur.
-
-
-Zweryfikowano Pomyslnie
